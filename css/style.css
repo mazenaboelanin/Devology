@@ -1,0 +1,462 @@
+body{
+    font-family: sans-serif;
+ /*   height: 10000px;*/
+     background: #333;
+    color:#CCC; 
+}
+
+.navbar
+{
+    opacity: 0.7;
+    border-bottom: 3px solid#780061;
+}
+.header
+{
+   /* margin: auto;*/
+    background: url("../img/cover1.jpg") no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    background-attachment: fixed;
+    /*color: #FFF;*/
+    position: relative;
+  
+}
+
+.header .overlay , #test .overlay
+{
+    background-color: rgba(0,0, 0, 0.6);
+    height:100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    
+    
+}
+
+.header .inner
+{
+    padding-top: 150px;
+    height: 100%;
+}
+
+.header .card
+{
+    background: #780061;
+    color: #FFF;
+    opacity: 0.8;
+}
+
+.header .inner h1 , .header .inner .inner-p
+{
+    
+    font-style: italic;
+    opacity: 0.9;
+
+}
+.header .inner-p 
+{
+    padding: 20px;
+}
+/*
+header .inner .inner-p
+{
+    margin: 50px;
+}
+*/
+.header .overlay button
+{
+    background: transparent;
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #FFF;
+
+}
+.header a
+{
+    padding-top: 5px;
+    opacity: 0.8;
+    font-size: 15px;
+}
+
+#tech 
+{
+ 
+    /*margin-top: 120px;*/
+   
+    min-height: 450px;
+    color:#CCC;
+   
+}
+
+#tech .icon
+{
+    border: 1px solid #CCC;
+    margin: auto;
+    width: 40%;
+ 
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+
+#tech img
+{
+    width: 60%;
+    height:60%;
+    margin-top:30px; 
+    margin-bottom: 20px;
+    /*
+    position: absolute;
+    left: 26px;
+    top: 16px;
+    */
+    
+}
+#tech .icon:hover
+{
+    cursor: pointer;
+    background: rgba(110,0,89,0.4);
+}
+
+
+#test
+{
+    background: url("../img/test.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    min-height: 350px;;
+}
+
+#test .client
+{
+    padding: 60px 0;
+}
+
+#test .client img
+{
+    width: 100px;
+    margin-bottom: 10px;
+    
+}
+#test .client .progress
+{
+    height: 20px;
+    border-radius: 10px;
+
+}
+#test .client .progress-bar
+{
+    background: #780061;
+
+}
+
+#test .slider  .hidden 
+{
+    display:none;
+}
+/*
+#test .slider . 
+{
+    display: block;
+} 
+*/
+
+#test .fa-chevron-circle-right , #test .fa-chevron-circle-left
+{
+    position: absolute;
+    top: 45%;
+    cursor: pointer;
+}
+
+#test .fa-chevron-circle-right:hover , #test .fa-chevron-circle-left:hover
+{
+    color:#780061;
+}
+
+#test .fa-chevron-circle-right {
+    right: 20px;
+}
+
+#test .fa-chevron-circle-left
+{
+    left: 20px;
+}
+
+
+/*-------------------------------------------------------------------------------------*/
+
+
+/* About Page */
+
+.about-header
+{
+    background: url("../img/aboutus.jpg") no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    min-height: 350px;
+    position: relative;
+}
+
+.about-header .overlay 
+{
+    background-color: rgba(0,0, 0, 0.6);
+    height:100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.about-header .about-inner
+{
+    padding-top: 130px;
+   /* position: absolute;*/
+}
+
+.about-header i
+{
+    position: absolute;
+    margin-left: 50px;
+
+}
+
+.about-header .overlay h1 
+{
+    
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.info
+{
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+
+
+.team
+{/*
+    background: url(../img/aboutus.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size:cover; 
+    */
+   
+    min-height: 700px;
+    background-color: #CCC;
+    color: #333;
+}
+
+.team .team-heading 
+{
+    color: #CCC !important;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)) ,url('../img/team.jpg');
+    background-size: cover;
+    background-attachment:fixed ;
+    position: 0 -50px;
+    min-height: 200px;
+   
+}
+
+.team span 
+{
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+.team img
+{
+     width: 50%;
+    height: 50%;
+    /*
+    border-radius: 100%;
+    margin-bottom: 10px; */
+}
+
+.team img:hover
+{
+    cursor: pointer;
+   /* border: 3px solid #333;*/
+    box-shadow: 5px 5px 2px  #780061 ;
+    /*transition: ease-in-out 2000;*/
+    transform: scale(1.1,1.1);
+
+}
+
+.team h3 
+{
+    font-weight: bold;
+}
+
+.team .rule 
+{
+    background-color: #333;
+    color: #cccccc;
+    border-left: 10px solid #5f1351;
+    border-right: 10px solid #5f1351;
+    padding: 30px;
+}
+.team .college 
+{
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    text-align: center;
+}
+
+.team .level
+{
+    display: block;
+}
+
+.team .hr img 
+{
+    width: 80%;
+}
+
+/*
+hr
+{
+    border: 1px solid #333;
+    background-color: #333;
+    margin-bottom: 35px;
+} 
+*/
+/* BLOG */
+
+#blog 
+{
+    background-color: #ccc;
+    color: #333;
+    
+}
+
+#blog .card 
+{
+    background-color :#e3e2e2;
+    
+}
+#blog .card-body 
+{
+    height: 400px;
+    overflow: auto;
+}
+
+/* CONTACT */
+
+#contact
+{   /*
+    background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) ,url('/img/contact.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    */
+    background-color: #ccc;
+}
+
+#contact .form-heading
+{
+    background-color: #333
+}
+
+#contact .form-control
+{
+    background: transparent;
+    border: 1px solid #333;
+}
+
+#contact .btn
+{
+    border: 1px solid #333;
+}
+
+
+/* FOOTER */
+
+footer
+{
+ 
+    min-height: 400px;
+}
+
+footer img
+{
+    width: 20px;
+    
+}
+footer img
+{
+    text-align: left !important;
+}
+
+footer .fb , footer .insta , footer .site
+{
+    padding: 5px;
+}
+footer .location 
+{
+    padding: 5px;
+}
+footer a 
+{
+    text-decoration: none;
+    color: #CCC;
+}
+
+footer a:hover
+{
+    color: #780061;
+} 
+
+footer .btn-primary
+{
+    background: #780061;
+    border : 1px solid #333;
+    color: #CCC;
+}
+
+footer .btn-primary:hover
+{
+    background: #780061;
+    border : 1px solid #CCC;
+}
+
+footer .blog ul 
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+footer .blog ul li
+{
+    
+    
+    padding: 15px;
+    border-bottom: 2px solid #CCC;
+    border-radius: 50%;
+   
+}
+footer .blog ul li:hover
+{
+    color: #780061;
+    border-bottom: 2px solid #780061;
+    cursor: pointer;
+}
+
+footer .copyright
+{
+   
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+footer .copyright span 
+{
+    color: #780061;
+    border-bottom: 1.5px solid #780061; 
+  
+} 
